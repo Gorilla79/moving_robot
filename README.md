@@ -95,11 +95,13 @@ $$
    $$
 
 2. 이웃 셀의 비용 업데이트:
+
    $$
    f(x, y) = g(x, y) + h(x, y)
    $$
+   
    여기서:
-   - $g(x, y)$ : 셀 $(x, y)$ 까지의 실제 비용
+   - $'g(x, y)'$ : 셀 $(x, y)$ 까지의 실제 비용
    - $h(x, y)$ : 셀 $(x, y)$ 에서 목표까지의 휴리스틱 추정값
 
 #### 코드:
@@ -148,6 +150,7 @@ def astar_weighted(grid, weights, start, goal):
 
 #### 수식:
 경로가 $(x_i, y_i)$ 로 구성되어 있을 때:
+
 $$
 \text{거리} = \sum_{i=1}^{n-1} \sqrt{(x_{i+1} - x_i)^2 + (y_{i+1} - y_i)^2} \times \text{resolution}
 $$
@@ -172,9 +175,11 @@ def calculate_path_distance(path, resolution):
 맵 메타데이터(해상도 및 원점)를 사용하여 픽셀 기반 좌표를 전역 좌표로 변환합니다.
 
 #### 수식:
+
 $$
 \text{global\_x} = \text{pixel\_x} \times \text{resolution} + \text{origin}[0]
 $$
+
 $$
 \text{global\_y} = \text{pixel\_y} \times \text{resolution} + \text{origin}[1]
 $$
