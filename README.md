@@ -1,6 +1,7 @@
 # moving_robot
 
 SLAM 지도와 실제 거리를 기반으로 path_planning의 거리 값 구하기
+</br>
 
 yaml파일의 resolution 활용
 이전 grid_map 과정을 끝내고 해당 과정에서 추출한 result_grid_test_size_min.csv를 기반으로 내용을 수행
