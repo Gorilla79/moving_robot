@@ -174,11 +174,11 @@ def calculate_path_distance(path, resolution):
 #### 수식:
 
 $$
-\text{global_x} = \text{pixel_x} \times \text{resolution} + \text{origin}[0]
+\text{global\_x} = \text{pixel\_x} \times \text{해상도} + \text{원점}[0]
 $$
 
 $$
-\text{global_y} = \text{pixel_y} \times \text{resolution} + \text{origin}[1]
+\text{global\_y} = \text{pixel\_y} \times \text{해상도} + \text{원점}[1]
 $$
 
 #### 코드:
