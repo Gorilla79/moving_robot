@@ -3,11 +3,11 @@
 SLAM 지도와 실제 거리를 기반으로 path_planning의 거리 값 구하기
 </br>
 
-yaml파일의 resolution 활용
-이전 grid_map 과정을 끝내고 해당 과정에서 추출한 result_grid_test_size_min.csv를 기반으로 내용을 수행
-
-(지도가 세로로 평평하게 출력되었을때 다시 측정해야 됨)
-실제 Waypoint에 따른 거리
+yaml파일의 resolution 활용</br>
+이전 grid_map 과정을 끝내고 해당 과정에서 추출한 result_grid_test_size_min.csv를 기반으로 내용을 수행</br>
+</br>
+(지도가 세로로 평평하게 출력되었을때 다시 측정해야 됨)</br>
+실제 Waypoint에 따른 거리</br>
 Path 1의 거리(Way Point 1 -> Way Point2) : 39.5m
 출력된 Path1의 거리 : 39.30m
 
