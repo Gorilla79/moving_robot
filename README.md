@@ -90,16 +90,12 @@ $$
 
 #### 단계:
 1. 휴리스틱 함수 정의 (유클리드 거리):
-</br>
-\[
-h(x, y) = \sqrt{(x_\text{goal} - x)^2 + (y_\text{goal} - y)^2}
-\]
+
+$$h(x, y) = \sqrt{(x_\text{goal} - x)^2 + (y_\text{goal} - y)^2}$$
 
 2. 이웃 셀의 비용 업데이트:
-</br>
-\[
-f(x, y) = g(x, y) + h(x, y)
-\]
+
+$$f(x, y) = g(x, y) + h(x, y)$$
    
    여기서:
    - $g(x, y)$ : 셀 $(x, y)$ 까지의 실제 비용
@@ -177,13 +173,13 @@ def calculate_path_distance(path, resolution):
 
 #### 수식:
 
-\[
-\text{global\_x} = \text{pixel\_x} \times \text{resolution} + \text{origin}[0]
-\]
+$$
+\text{global_x} = \text{pixel_x} \times \text{resolution} + \text{origin}[0]
+$$
 
-\[
-\text{global\_y} = \text{pixel\_y} \times \text{resolution} + \text{origin}[1]
-\]
+$$
+\text{global_y} = \text{pixel_y} \times \text{resolution} + \text{origin}[1]
+$$
 
 #### 코드:
 ```python
